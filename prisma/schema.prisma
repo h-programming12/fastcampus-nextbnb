@@ -53,8 +53,10 @@ model User {
   image       String?
   desc        String?
   emailVerified  Boolean?
+  phone       String?
+  address     String?
   rooms       Room[]
-  account     Account[]
+  accounts    Account[]
   sessions    Session[]
 }
 
