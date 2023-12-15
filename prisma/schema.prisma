@@ -93,7 +93,7 @@ model Room {
   hasFreeParking    Boolean     @default(false)
   userId            String?
   createdAt         DateTime    @default(now())
-  likes       Like[]
+  likes             Like[]
   user              User?        @relation(fields: [userId], references: [id], onDelete: Cascade)
   @@index([userId])
 }
