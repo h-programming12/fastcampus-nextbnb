@@ -34,7 +34,7 @@
 1. Prisma 문법 알아보기
 2. Prisma로 Mock 데이터 생성하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/5)
 
-#### 5강. 숙박 예약 플랫폼 메인 페이지 개발하기
+### 5강. 숙박 예약 플랫폼 메인 페이지 개발하기
 1. 메인페이지 검색 필터 구현하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/6)
 2. react-calendar를 사용해 검색 필터내 달력 컴포넌트 구현하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/7)
 3. Recoil 알아보기 & 세팅하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/8)
