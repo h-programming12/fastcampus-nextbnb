@@ -73,6 +73,8 @@ export interface RoomType {
   likes?: LikeType[]
   comments?: CommentType[]
   bookings?: BookingType[]
+  createdAt?: string
+  updatedAt?: string
 }
 
 interface Account {
