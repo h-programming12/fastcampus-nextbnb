@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useRef } from 'react'
-
+import each from 'lodash/each'
 import CategoryList from '@/components/CategoryList'
 import { GridLayout, RoomItem } from '@/components/RoomList'
 import { useInfiniteQuery } from 'react-query'
@@ -18,6 +18,15 @@ import { useRecoilValue } from 'recoil'
 import { filterState } from '@/atom'
 
 export default function Home() {
+  const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+  each(arr, (num) => {
+    console.log('hello world')
+  })
+
+  // _.each(arr, (num) => {
+  //   console.log(num, 'hello world')
+  // })
   const router = useRouter()
   const ref = useRef<HTMLDivElement | null>(null)
   const filterValue = useRecoilValue(filterState)
