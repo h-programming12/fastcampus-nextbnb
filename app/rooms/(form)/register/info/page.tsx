@@ -3,6 +3,7 @@
 import { roomFormState } from '@/atom'
 import NextButton from '@/components/Form/NextButton'
 import Stepper from '@/components/Form/Stepper'
+import { FormUrl } from '@/constants'
 import { useRouter } from 'next/navigation'
 import { useState, useEffect } from 'react'
 import { useForm } from 'react-hook-form'
@@ -34,7 +35,7 @@ export default function RoomRegisterInfo() {
       bedroomDesc: data.bedroomDesc,
       price: data.price,
     })
-    router.push('/rooms/register/address')
+    router.push(FormUrl.ADDRESS)
   }
 
   useEffect(() => {
@@ -45,6 +46,10 @@ export default function RoomRegisterInfo() {
       setValue('desc', roomForm?.desc)
     }
   }, [roomForm, setValue])
+
+  useEffect(() => {
+    router.prefetch(FormUrl.ADDRESS)
+  }, [router])
 
   return (
     <>
