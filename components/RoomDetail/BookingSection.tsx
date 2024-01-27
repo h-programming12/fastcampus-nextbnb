@@ -8,6 +8,7 @@ import dayjs from 'dayjs'
 import 'dayjs/locale/ko'
 import { calculatedFilterState } from '@/atom/selector'
 import { useRouter } from 'next/navigation'
+import { event } from '@/utils/gtag'
 
 export default function BookingSection({ data }: { data: RoomType }) {
   const router = useRouter()
@@ -17,10 +18,17 @@ export default function BookingSection({ data }: { data: RoomType }) {
   const totalAmount = data?.price * dayCount
   const checkFormValid = totalAmount > 0 && guestCount > 0
 
-  const handleSubmit = () =>
+  const handleSubmit = () => {
+    event({
+      action: 'click_booking',
+      category: 'booking',
+      label: `submit_booking_${data.id}`,
+      value: totalAmount,
+    })
     router.push(
       `/rooms/${data.id}/bookings?checkIn=${filterValue?.checkIn}&checkOut=${filterValue?.checkOut}&guestCount=${guestCount}&totalAmount=${totalAmount}&totalDays=${dayCount}`,
     )
+  }
 
   const onChangeCheckIn = (e: any) => {
     setFilterValue({

@@ -7,6 +7,7 @@ import axios from 'axios'
 import { useQuery } from 'react-query'
 import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai'
 import { useSession } from 'next-auth/react'
+import { event } from '@/utils/gtag'
 
 export default function LikeButton({ room }: { room: RoomType }) {
   const { data: session } = useSession()
@@ -37,12 +38,24 @@ export default function LikeButton({ room }: { room: RoomType }) {
         } else {
           toast.error('찜을 취소했습니다')
         }
+        event({
+          action: 'click_like',
+          category: 'like',
+          label: like.status === 201 ? 'create_like' : 'delete_like',
+          value: room.id,
+        })
         refetch()
       } catch (e) {
         console.log(e)
       }
     } else {
       toast.error('로그인 후 시도해주세요')
+      event({
+        action: 'click_like',
+        category: 'like',
+        label: 'need_login',
+        value: room.id,
+      })
     }
   }
 
