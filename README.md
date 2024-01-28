@@ -76,12 +76,73 @@
 4. 숙박 상세 페이지 댓글 기능 구현하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/34)
 5. 숙소 찜, 내가 쓴 댓글 리스트 구현하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/35)
 
+### 10강. 숙소 예약 기능 개발하기
+1. 숙박 예약 기능 설계하기
+2. 숙박 예약 데이터 모델링 및 예약 요청 페이지 UI 구현 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/38)
+3. 숙박 예약 기능 API 개발하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/39)
+4. 숙박 예약 완료 리스트 개발하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/40)
+5. 숙박 예약 취소 기능 개발하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/41)
 
+### 11강. 숙박 결제 기능 개발하기
+1. 결제 기능 설계하기
+2. 토스 페이먼스 API 문서 확인하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/42)
+3. 결제 기능 개발하기 (1): 토스 페이먼츠 API를 이용한 결제 모듈 개발하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/43)
+4. 결제 기능 개발하기 (2):  토스 페이먼츠 API를 이용한 결제 성공 및 에러 처리 개발하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/44)
 
-### 10강.
+### 12강. 숙소 등록 기능 개발하기
+1. React-hook-form으로 숙소 등록 폼 개발하기 (1) [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/45)
+2. React-hook-form으로 숙소 등록 폼 개발하기 (2) [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/46)
+3. 다음 주소 API 활용해서 숙소 주소 등록하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/47)
+4. Firebase Storage 알아보기 & 세팅하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/48)
+5. Firebase Storage로 이미지 업로드 구현하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/49)
+6. 내가 등록한 숙소 리스트 작업하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/50)
+7. 내가 등록한 숙소 수정 기능 구현하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/51)
+8. 내가 등록한 숙소 삭제 기능 구현하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/52)
 
+### 13강. 숙소 검색 기능 개발하기
+1. 숙소 검색 기능 설계하기
+2. 숙소 검색 기능 구현하기 (검색 필터 & 카테고리 탭) [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/53)
 
+### 14강. E2E 테스트 적용하기
+1. 프론트엔드 테스트 종류 및 필요성 알아보기
+2. E2E 테스트 및 Cypress 개념 알아보기
+3. Cypress 세팅하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/54)
+4. Cypress를 이용하여 E2E 테스트 적용하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/55)
 
+### 15강. 배포하기
+1. Vercel 알아보기
+2. Vercel로 배포하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/56)
+
+### 16강. 성능 측정하기
+1. Lighthouse로 성능 측정하기
+2. @next/bundle-analyzer로 성능 측정하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/57)
+
+### 17강. 성능 개선하기
+1. Meta Data로 SEO 개선하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/58)
+2. Lazy Loading 적용하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/59)
+3. throttle, debounce로 검색 성능 개선하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/60)
+4. tree-shaking 및 코드 정리로 번들 크기 개선하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/61)
+5. 이미지 및 폰트 최적화 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/62)
+6. next/navigation에 Prefetch 적용하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/63)
+7. Loading UI로 스켈레톤 적용하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/64)
+8. Next.js 13 Parallel Routes로 성능 개선하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/65)
+
+### 18강. 도메인 설정하기
+1. 도메인 개념 알아보기
+2. Godaddy에서 내가 원하는 도메인으로 변경하기
+
+### 19강. 웹 분석 도구 및 웹 마스터 도구 적용하기
+1. Google Analytics 알아보기
+2. Google Analytics 적용하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/66)
+3. 네이버 서치 어드바이저에 사이트 등록하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/69)
+4. Google Search Console에 사이트 등록하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/71)
+
+### 부록: 1강. 디자인 시스템 구성하기
+1. 디자인 시스템의 개념과 필요성 알아보기
+2. 숙박 예약 플랫폼 디자인 시스템 컴포넌트 정의하기
+3. StoryBook 알아보기 & 세팅하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/72)
+4. 숙박 예약 플랫폼 디자인 시스템 Storybook 작성하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/73)
+5. 숙박 예약 플랫폼 디자인 시스템 Storybook 작성하기 (2) [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/74)
 
 
 
