@@ -10,7 +10,8 @@
     "cypress": "cypress open",
     "analyze": "ANALYZE=true yarn build",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_9e508c0ab7d8129"
   },
   "prisma": {
     "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
@@ -57,6 +58,7 @@
     "@types/react-dom": "^18",
     "@types/uuid": "^9.0.7",
     "autoprefixer": "^10",
+    "chromatic": "^10.6.1",
     "cypress": "^13.6.2",
     "eslint": "^8.55.0",
     "eslint-config-next": "13.5.6",
