@@ -71,6 +71,7 @@ export default function Navbar() {
             <div className="my-auto font-semibold text-sm">게스트</div>
           </div>
           <button
+            id="filter-open-btn"
             type="button"
             onClick={() => setShowFilter(true)}
             data-cy="filter-open-btn"
@@ -209,6 +210,7 @@ export default function Navbar() {
         )}
 
         <button
+          id="menu-btn"
           type="button"
           onClick={() => setShowMenu((val) => !val)}
           className="flex align-middle gap-3 rounded-full border border-gray-20 shadow-sm px-4 py-3 my-auto hover:shadow-lg"

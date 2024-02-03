@@ -65,9 +65,12 @@ export default function BookingSection({ data }: { data: RoomType }) {
         </div>
         <form className="mt-2">
           <div className="mt-2">
-            <label className="text-xs font-semibold">체크인</label>
+            <label className="text-xs font-semibold" htmlFor="checkin-input">
+              체크인
+            </label>
             <input
               type="date"
+              id="checkin-input"
               value={filterValue.checkIn || dayjs().format('YYYY-MM-DD')}
               min={dayjs().format('YYYY-MM-DD')}
               className="w-full px-4 py-3 border border-gray-400 rounded-md text-xs mt-1"
@@ -75,8 +78,11 @@ export default function BookingSection({ data }: { data: RoomType }) {
             />
           </div>
           <div className="mt-2">
-            <label className="text-xs font-semibold">체크아웃</label>
+            <label className="text-xs font-semibold" htmlFor="checkout-input">
+              체크아웃
+            </label>
             <input
+              id="checkout-input"
               type="date"
               value={filterValue.checkOut || dayjs().format('YYYY-MM-DD')}
               min={filterValue.checkIn || dayjs().format('YYYY-MM-DD')}
@@ -85,8 +91,11 @@ export default function BookingSection({ data }: { data: RoomType }) {
             />
           </div>
           <div className="mt-2">
-            <label className="text-xs font-semibold">인원</label>
+            <label className="text-xs font-semibold" htmlFor="guest-input">
+              인원
+            </label>
             <select
+              id="guest-input"
               onChange={onChangeGuest}
               value={filterValue.guest}
               className="w-full px-4 py-3 border border-gray-400 rounded-md text-xs mt-1"

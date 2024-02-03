@@ -75,7 +75,8 @@ export async function generateMetadata(
 
   return {
     title: `Nextbnb 숙소 - ${room?.title}`,
-    description: room?.description,
+    description:
+      room?.description ?? 'Fastcampus Nextbnb로 여행을 계획해보세요.',
     keywords: [room?.category, ...prevKeywords],
   }
 }
