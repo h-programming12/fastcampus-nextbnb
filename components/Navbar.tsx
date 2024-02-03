@@ -72,6 +72,7 @@ export default function Navbar() {
           </div>
           <button
             id="filter-open-btn"
+            aria-label="filter-open-btn"
             type="button"
             onClick={() => setShowFilter(true)}
             data-cy="filter-open-btn"
@@ -211,6 +212,7 @@ export default function Navbar() {
 
         <button
           id="menu-btn"
+          aria-label="menu-btn"
           type="button"
           onClick={() => setShowMenu((val) => !val)}
           className="flex align-middle gap-3 rounded-full border border-gray-20 shadow-sm px-4 py-3 my-auto hover:shadow-lg"
