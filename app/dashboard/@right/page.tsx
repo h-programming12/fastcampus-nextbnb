@@ -2,7 +2,6 @@ export default async function DashboardRightPage() {
   // await new Promise((resolve) => setTimeout(resolve, 3500))
   await new Promise((resolve, reject) => {
     setTimeout(() => {
-      reject(new Error('Random Error'))
       const randomNumber = Math.random()
       // 50% 확률로 에러 발생
       if (randomNumber < 0.5) {
