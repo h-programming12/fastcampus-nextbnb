@@ -144,6 +144,18 @@
 4. 숙박 예약 플랫폼 디자인 시스템 Storybook 작성하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/73)
 5. 숙박 예약 플랫폼 디자인 시스템 Storybook 작성하기 (2) [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/74)
 
+### 부록: 2강. 성능 측정 더 알아보기
+1. 성능 측정의 중요성과 성능 지표 알아보기
+2. 크롬 개발자 도구로 숙박 예약 플랫폼 성능 측정하기
+3. PageSpeed Insights로 Next.js 프로젝트 분석하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/76)
+
+### 부록: 3강. Next.js 13 에러 핸들링 알아보기
+1. Next.js 13 에러 처리 알아보기
+2. React Error boundary와 Next.js 13 에러 처리 비교하기 [링크](https://github.com/h-programming12/fastcampus-nextbnb/pull/78)
+
+### 부록: 4강. 포트폴리오로 Next.js 역량 표현하기
+1. 프론트엔드 채용 절차 알아보기
+2. Next.js 포트폴리오 작성 방법
 
 
 
